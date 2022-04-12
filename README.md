@@ -1,5 +1,50 @@
 <h1 align="center">My Issue</h1>
 
+<img src="https://img.shields.io/badge/license-GNU%20GPLv3-green"/>
+
+<p align="center">🚀 Plataforma de indicação de projetos/issue de acordo com o perfil do usuário</p>
+
+<h4 align="center"> 
+	🚧  MyIssue :zap: Em construção... 🚀 🚧
+</h4>
+
+
+
+### Features
+
+- [ ] Cadastro com o usuário do github.
+- [ ] Recomendação de issue de acordo com o perfil do usuário.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Projeto
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/tgmarinho/myIssue>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd myIssue
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+```
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
 Autores
 =======
 
