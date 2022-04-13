@@ -72,4 +72,4 @@ Autores
 </table>
 
 ## 📝 Licença
-Este projeto está sobre licença [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.pt-br.html), para mais veja o arquivo [LICENSE](https://github.com/UTFPR-SL/myIssue/blob/main/LICENSE). Os motivos da escolha dessa licensa estão presentes no arquivo [porque_essa_licenca.md]().
+Este projeto está sobre licença [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.pt-br.html), para mais veja o arquivo [LICENSE](https://github.com/UTFPR-SL/myIssue/blob/main/LICENSE). Os motivos da escolha dessa licensa estão presentes no arquivo [porque_essa_licenca.md](https://github.com/UTFPR-SL/myIssue/porque_essa_licenca.md).
