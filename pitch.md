@@ -48,5 +48,5 @@
 - A arquitetura está documentada?
 - Existem políticas / diretrizes de padrões de código disponíveis? Onde?
 ## Enviando sua contribuição
-- Existem diretrizes sobre como criar um envio? Onde?
-- Existe algum tipo de lista de verificação a seguir?
+- Existem diretrizes sobre como criar um envio? Onde? Sim, tem um link par as [diretrizes](https://github.com/JabRef/jabref/blob/main/CONTRIBUTING.md).
+- Existe algum tipo de lista de verificação a seguir? Sim.
