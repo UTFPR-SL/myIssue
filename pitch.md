@@ -15,8 +15,8 @@
 - Código de Conduta: N/A
 - Wiki de desenvolvimento: https://github.com/JabRef/jabref/wiki
 ## Encontrar uma tarefa para trabalhar
-- O projeto usa tags para identificar tarefas fáceis?
-- Se sim, qual(is) tag(s) é(são) usada(s)?
+- O projeto usa tags para identificar tarefas fáceis? Sim.
+- Se sim, qual(is) tag(s) é(são) usada(s)? A tag indicada para novos desenvolvedores é a ["good first issue"](https://github.com/JabRef/jabref/labels/good%20first%20issue).
 ## Pessoal-chave
 - Você tem algum contato no projeto? Quem?
 - Quem são os principais contribuidores do projeto (encontre)?
