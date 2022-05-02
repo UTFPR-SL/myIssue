@@ -44,9 +44,9 @@
 - Existem tutoriais, diretrizes ou perguntas frequentes sobre como configurar o espaço de trabalho local?
 - A comunidade recomenda algum sistema operacional ou IDE específico? Quais?
 ## Documentação do código
-- Existe algum tipo de documentação de código disponível? Onde?
-- A arquitetura está documentada?
-- Existem políticas / diretrizes de padrões de código disponíveis? Onde?
+- Existe algum tipo de documentação de código disponível? Onde? Sim, tem um link para a [documentação](https://docs.jabref.org/). 
+- A arquitetura está documentada? Sim.
+- Existem políticas / diretrizes de padrões de código disponíveis? Onde? Sim, https://docs.jabref.org/finding-sorting-and-cleaning-entries.
 ## Enviando sua contribuição
-- Existem diretrizes sobre como criar um envio? Onde? Sim, tem um link par as [diretrizes](https://github.com/JabRef/jabref/blob/main/CONTRIBUTING.md).
+- Existem diretrizes sobre como criar um envio? Onde? Sim, tem um link para as [diretrizes](https://github.com/JabRef/jabref/blob/main/CONTRIBUTING.md).
 - Existe algum tipo de lista de verificação a seguir? Sim.
