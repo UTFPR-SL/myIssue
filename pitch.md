@@ -41,8 +41,8 @@
 - Quais são os meios de comunicação disponíveis e quais são os enfoques de cada um? (Fóruns, listas de discussão, rastreador de problemas, IRC, Slack, etc.)
 - Você já usou algum deles?
 ## Configuração do espaço de trabalho
-- Existem tutoriais, diretrizes ou perguntas frequentes sobre como configurar o espaço de trabalho local?
-- A comunidade recomenda algum sistema operacional ou IDE específico? Quais?
+- Existem tutoriais, diretrizes ou perguntas frequentes sobre como configurar o espaço de trabalho local? Sim, https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace.
+- A comunidade recomenda algum sistema operacional ou IDE específico? Quais? Sim. Os sistemas operacionais recomendados são Linux e o Windowns. Já as IDEs recomendadas são o `INTELLIJ` e o `ECLIPSE`. Para mais informações acesse o [link](https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace#ide). 
 ## Documentação do código
 - Existe algum tipo de documentação de código disponível? Onde? Sim, tem um link para a [documentação](https://docs.jabref.org/). 
 - A arquitetura está documentada? Sim.
