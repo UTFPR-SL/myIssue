@@ -1,4 +1,11 @@
 # Detalhes sobre Jabref
+
+## Introdução
+- Razões pela escolha do projeto: utiliza o Github ao invés do Gitlab, fortalecendo a contribuição e visualização por mais pessoas. É um projeto que fortalece a escrita acadêmica e científica de alta qualidade de maneira gratuita.
+- Descrição sobre o projeto em si: é uma interface que facilita a criação de referências no LaTeX. Já é um software consolidado e amplamente utilizado.
+- Plano de ataque: começaremos pelas issues com a tag 'good first issue'.
+- É um software amplamente consolidado no ambiente acadêmico, aumentando assim o grau de confiança.
+
 ## Recursos disponíveis (URLs)
 - Idioma principal usado:
     * Java
