@@ -9,11 +9,11 @@
     * Shell
     * CSS
 ## Recursos disponíveis (URLs)
-- Pagina inicial:
-- Guia de contribuição:
-- Rastreador de problemas:
-- Código de Conduta:
-- Wiki de desenvolvimento
+- Pagina inicial: https://github.com/Jabref/Jabref
+- Guia de contribuição: https://github.com/JabRef/jabref/blob/main/CONTRIBUTING.md
+- Rastreador de problemas: https://github.com/JabRef/jabref/issues
+- Código de Conduta: N/A
+- Wiki de desenvolvimento: https://github.com/JabRef/jabref/wiki
 ## Encontrar uma tarefa para trabalhar
 - O projeto usa tags para identificar tarefas fáceis?
 - Se sim, qual(is) tag(s) é(são) usada(s)?
