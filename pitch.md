@@ -39,7 +39,9 @@
    * Benedikt Tutzer (since 2021) 
 ## Comunicando-se com a comunidade
 - Quais são os meios de comunicação disponíveis e quais são os enfoques de cada um? (Fóruns, listas de discussão, rastreador de problemas, IRC, Slack, etc.)
-- Você já usou algum deles?
+   * [Fórum](https://discourse.jabref.org/c/help/7)
+   * [Rastreador de problemas](https://github.com/JabRef/jabref/issues)
+- Você já usou algum deles? Não.
 ## Configuração do espaço de trabalho
 - Existem tutoriais, diretrizes ou perguntas frequentes sobre como configurar o espaço de trabalho local? Sim, https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace.
 - A comunidade recomenda algum sistema operacional ou IDE específico? Quais? Sim. Os sistemas operacionais recomendados são Linux e o Windowns. Já as IDEs recomendadas são o `INTELLIJ` e o `ECLIPSE`. Para mais informações acesse o [link](https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace#ide). 
