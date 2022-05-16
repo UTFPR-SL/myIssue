@@ -77,3 +77,14 @@ No jabref o pacote `event` possui alguns eventos especificos que ocorrem. Um exe
 
 #### Logging
 Para o estrutura de logs o JabRef usa o [SLF4J](https://www.slf4j.org/) que é um API de log JAVA que usa o modelo de fachada simples. Todas as mensagem de log são passadas para a [tinylog](https://tinylog.org/v2/), que é responsavel por lidar com qualquer filtragem, formatação e gravação de mesnagem no log. 
+
+#### Adicionando um novo idioma
+Esse projeto permite a adição de novas traduções é para tal é deixado um documentação contendo o passo a passo para criação/adição de um novo idioma ao projeto. O modelo organizacion/arquitetural desse projeto, faz com que seja isso seja possivel. Caso querira saber mais sobre como adicionar novas traduções acesse esse [link](https://docs.jabref.org/contributing/how-to-translate-the-ui).
+
+Os passos apresentados são:
+- Adicionar o novo idioma ao enum `Language` que está [aqui](https://github.com/JabRef/jabref/blob/master/src/main/java/org/jabref/logic/l10n/Language.java).
+- Crie um arquivovazio <código de localidade>.properties.
+- Configurar o novo idioma no [Crowdin](https://crowdin.com/project/jabref)
+
+#### Casos de teste
+O JabRef apresenta algumas dicas para o processo de criação de testes. Um das dicaséem relação a onde criar esses testes, é aconselhável criar todos os testes dentro da classe `classTest`. Outra dica é em relação a criação dos nomes, e para isso deve-se optar sempre por nomes bem descritivos em realação ao teste em questão. Um exemplo de nome de teste seria o `formatRemovesDoubleBracesAtBeginning`. O ideial é evitar colocar a palavra `test` no nome, pois o nome da classe já deixa isso explícito. Outro ponto a se observar é que os testes devem ser criados para apenas um ação por vez. Ao inves de criar um teste que exculte tudo, crie varios testes para cada funcionalidade separadamente, a ideia é que cada ponto seja testado o melhor possivel. Lembre-se também de testar casos de erro, geralmente costumamos testar apenas casos de sucesso, po´rem o contrario tambem  é muito importante.  Como boa pratica é aconselhável escrever testes antes de começar a desenvolver a funcionalidade. Em caso de correção de bug lembre-se sempre de arrumar o caso de teste.
