@@ -59,4 +59,21 @@ Classes mais importantes e sua relação Ambos GUI e CLI são iniciados através
 
 ### Howtos
 
-TODO: Fazer um RESUMO sobre esta página  [HOWTO](https://devdocs.jabref.org/getting-into-the-code/code-howtos.html)
+#### Dicas para código genérico
+- Não abreviar nomes váriaveis, classes ou métodos.
+- Usar lowerCamelCase no lugar do snake_case.
+- Nome de Enuns devem ser escritos no singular. 
+  - Ex: Weekday e não Weekdays.
+
+#### Tratamento de erros no JabRef 
+- Todas as exceções lançadas devem ser ou estender à `JabRefException`.
+- Nunca lançe ou capture `Exception` ou `Throwable`.
+
+#### Gerando erros na interface do usuário
+No jabref as mensagens de erro que são mostradas ao usuário, não devem conter técnicos. A ideia é mostrar de forma clara e simples o problema que ococrreu, de forma que não programadores entendem o ocorrido. Para mostrar essas mensagens de erro, duas maneiras diferentes geralmente são usadas. A primeira é mostrando uma caixa de diálogo(`Swing Dialogs`) com o erro e a outra é atualizando a barra de status na parte inferior da janela principal(`status bar`).
+
+#### Manipulação de eventos no JabRef
+No jabref o pacote `event` possui alguns eventos especificos que ocorrem. Um exemplo disso é quando ocorre uma nova incersão no banco de dados, então um `EntryAddedEvent` é enviada através do `eventBus` que está presente no `BibDatabase`. Para podermos capturar algum evento no JabRef antes temos que registrar a classe listener com a função `registerListener(Object listener)` presente na `BibDatabase`.
+
+#### Logging
+Para o estrutura de logs o JabRef usa o [SLF4J](https://www.slf4j.org/) que é um API de log JAVA que usa o modelo de fachada simples. Todas as mensagem de log são passadas para a [tinylog](https://tinylog.org/v2/), que é responsavel por lidar com qualquer filtragem, formatação e gravação de mesnagem no log. 
