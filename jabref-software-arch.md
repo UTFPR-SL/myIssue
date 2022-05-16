@@ -59,6 +59,8 @@ Classes mais importantes e sua relação Ambos GUI e CLI são iniciados através
 
 ### Howtos
 
+O JabRef apresenta um serie de dicas de boa conduta durante o desenvolvimento de novas features para o projeto. Abaixo estão presentes algumas dicas em relação a nomeação de várivaies, criação de testes, tratamento de erro e etc. Caso queira mais imporfmações em relação a isso acesse esse [link](https://devdocs.jabref.org/getting-into-the-code/code-howtos.html).
+
 #### Dicas para código genérico
 - Não abreviar nomes váriaveis, classes ou métodos.
 - Usar lowerCamelCase no lugar do snake_case.
@@ -87,4 +89,4 @@ Os passos apresentados são:
 - Configurar o novo idioma no [Crowdin](https://crowdin.com/project/jabref)
 
 #### Casos de teste
-O JabRef apresenta algumas dicas para o processo de criação de testes. Um das dicaséem relação a onde criar esses testes, é aconselhável criar todos os testes dentro da classe `classTest`. Outra dica é em relação a criação dos nomes, e para isso deve-se optar sempre por nomes bem descritivos em realação ao teste em questão. Um exemplo de nome de teste seria o `formatRemovesDoubleBracesAtBeginning`. O ideial é evitar colocar a palavra `test` no nome, pois o nome da classe já deixa isso explícito. Outro ponto a se observar é que os testes devem ser criados para apenas um ação por vez. Ao inves de criar um teste que exculte tudo, crie varios testes para cada funcionalidade separadamente, a ideia é que cada ponto seja testado o melhor possivel. Lembre-se também de testar casos de erro, geralmente costumamos testar apenas casos de sucesso, po´rem o contrario tambem  é muito importante.  Como boa pratica é aconselhável escrever testes antes de começar a desenvolver a funcionalidade. Em caso de correção de bug lembre-se sempre de arrumar o caso de teste.
+O JabRef apresenta algumas dicas para o processo de criação de testes. Um das dicas é em relação a onde criar esses testes, é aconselhável criar todos os testes dentro da classe `classTest`. Outra dica é em relação a criação dos nomes, e para isso deve-se optar sempre por nomes bem descritivos em realação ao teste em questão. Um exemplo de nome de teste seria o `formatRemovesDoubleBracesAtBeginning`. O ideial é evitar colocar a palavra `test` no nome, pois o nome da classe já deixa isso explícito. Outro ponto a se observar é que os testes devem ser criados para apenas um ação por vez. Ao inves de criar um teste que exculte tudo, crie varios testes para cada funcionalidade separadamente, a ideia é que cada ponto seja testado o melhor possivel. Lembre-se também de testar casos de erro, geralmente costumamos testar apenas casos de sucesso, po´rem o contrario tambem  é muito importante.  Como boa pratica é aconselhável escrever testes antes de começar a desenvolver a funcionalidade. Em caso de correção de bug lembre-se sempre de arrumar o caso de teste.
